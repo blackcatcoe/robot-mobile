@@ -26,6 +26,7 @@ TC01
 #    Swipe    15    600    15    200
     Scrool Down To Menu  menu=Electric
     Click Element   xpath=//android.widget.ImageButton[@content-desc='Close navigation drawer']
+    sleep  2s
     Click Element   xpath=//android.widget.TextView[@content-desc='Search']
     input text  id=com.ba.universalconverter:id/search_src_text  test
     click element  xpath=//android.widget.ImageView[@content-desc='Clear query']
