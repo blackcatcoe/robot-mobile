@@ -2,14 +2,19 @@
 Library           AppiumLibrary
 
 *** Variables ***
-
+${PLATFORM_NAME}    Android
+${PLATFORM_VERSION}    7.0
+${DEVICE_NAME}    0215433832413136
+${PACKAGE}    com.ba.universalconverter
+${ACTIVITY}    MainConverterActivity
+${APP_LOCATION}    D:\\Training\\ii\\robot-mobile\\PreciseUnitConversion.apk
 
 *** Test Cases ***
 TC01
-    Open Application    http://localhost:4723/wd/hub    platformName=Android    platformVersion=7.0
-    ...    deviceName=0215433832413136
-    ...    appPackage=com.ba.universalconverter    appActivity=MainConverterActivity
-    ...    app=D:\\Training\\ii\\robot-mobile\\PreciseUnitConversion.apk
+    Open Application    http://localhost:4723/wd/hub    platformName=${PLATFORM_NAME}     platformVersion=${PLATFORM_VERSION}
+    ...    deviceName=${DEVICE_NAME}
+    ...    appPackage=${PACKAGE}    appActivity=${ACTIVITY}
+    ...    app=${APP_LOCATION}
     Click Element    xpath=//*[contains(@text,'7')]
     Click Element    xpath=//*[contains(@text,'9')]
     ${actual}    Get Text    id=com.ba.universalconverter:id/target_value
