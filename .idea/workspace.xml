@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148912a1-909b-455e-b677-466cf76cbf2e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/FirstScript.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FirstScript.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robot-Mobile.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/Robot-Mobile.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +13,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="FirstScript.robot" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/FirstScript.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_applicationmanagement.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/AppiumLibrary/keywords/_applicationmanagement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="47" column="152" selection-start-line="47" selection-start-column="152" selection-end-line="47" selection-end-column="168" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,7 +58,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -43,10 +65,16 @@
               <item name="robot-mobile" type="b2602c69:ProjectViewProjectNode" />
               <item name="robot-mobile" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="robot-mobile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robot-mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -65,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Robot Framework.TC01">
+  <component name="RunManager" selected="Unknown.Open Application    http://localhost:4723/wd/hub    platformName=Android    platformVersion=7.01396296281">
     <configuration name="Open Application    http://localhost:4723/wd/hub    platformName=Android    platformVersion=7.0" type="DEMO_RUN_CONFIGURATION" factoryName="Robot Framework" temporary="true">
       <option name="INTERPRETER_OPTIONS" value=" -m robot.run  -t &quot;Open Application    http://localhost:4723/wd/hub    platformName=Android    platformVersion=7.0&quot;" />
       <option name="INTERPRETER_NAME" value="python" />
@@ -86,16 +114,6 @@
       <option name="testCaseName" value="TC01" />
       <module name="" />
     </configuration>
-    <list>
-      <item itemvalue="Robot Framework.Open Application    http://localhost:4723/wd/hub    platformName=Android    platformVersion=7.0" />
-      <item itemvalue="Robot Framework.TC01" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Robot Framework.TC01" />
-        <item itemvalue="Robot Framework.Open Application    http://localhost:4723/wd/hub    platformName=Android    platformVersion=7.0" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -111,18 +129,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2496474" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -131,6 +150,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496474" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -191,18 +229,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appium-screenshot-2.png" />
+    <entry file="file://$PROJECT_DIR$/appium-screenshot-1.png" />
     <entry file="file://C:/Python27/Lib/site-packages/AppiumLibrary/keywords/_applicationmanagement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="246">
+          <caret line="47" column="152" selection-start-line="47" selection-start-column="152" selection-end-line="47" selection-end-column="168" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appium-screenshot-1.png" />
     <entry file="file://$PROJECT_DIR$/tests/FirstScript.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="88" lean-forward="true" selection-start-line="41" selection-start-column="88" selection-end-line="41" selection-end-column="88" />
+        <state relative-caret-position="442">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
